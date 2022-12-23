@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActorListRecyclerView</string>
+    <string name="add" />
+    <string name="delete" />
+    <string name="add2">ADD</string>
+    <string name="delete2">DELETE</string>
+</resources>

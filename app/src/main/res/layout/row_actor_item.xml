@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="20dp"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="20dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B0D5CEEF"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="69dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toStartOf="@+id/imgActor"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/txtFilm"
+            android:layout_width="174dp"
+            android:layout_height="19dp"
+            android:layout_below="@+id/txtName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="25dp"
+            android:layout_toStartOf="@+id/imgActor"
+            android:textSize="13sp"
+            android:textStyle="bold|italic"
+            tools:ignore="SmallSp"
+            tools:text="Film" />
+
+        <ImageView
+            android:id="@+id/imgActor"
+            android:layout_width="107dp"
+            android:layout_height="136dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="14dp"
+            android:src="@drawable/heath_ledger" />
+
+        <Button
+            android:id="@+id/rvDelete"
+            android:layout_width="33dp"
+            android:layout_height="31dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="69dp"
+
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/delete"
+            android:backgroundTint="#B0D5CEEF" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
